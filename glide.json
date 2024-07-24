@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "column",
+    "name": "CamelCase with Asterisks Suffix",
+    "description": "Replaces special characters with spaces, converts to camelCase, and ensures the final output is 30 characters long ending with '***'.",
+    "author": "Your Name <your.email@example.com>",
+    "params": [
+      {
+        "name": "inputString",
+        "displayName": "Input String",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
